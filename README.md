@@ -64,3 +64,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## To run the application
+1. Clone the Repository
+2. Go to the root folder of the project and run
+```
+composer install
+```
+3. Next install npm
+```
+npm install
+```
+4. Create a new database called ```todos_app``` in mysql
+5. Change the .env file according to your database credentials
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=todos_app
+DB_USERNAME=root
+DB_PASSWORD=
+```
+6. Run below command to create all the tables in your DB
+```
+php artisan migrate 
+```
+7. Once done, run the commands
+``` npm run dev``` and ```php artisan serve``` to run the application
+
