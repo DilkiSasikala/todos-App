@@ -66,7 +66,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## To run the application
-1. Clone the Repository
+1. Clone the Repository using the command
+```
+git clone https://github.com/DilkiSasikala/todos-App.git
+```
 2. Go to the root folder of the project and run
 ```
 composer install
